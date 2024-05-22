@@ -1,3 +1,3 @@
 Project CRUD
 -
-> Another unfinished project... I'll update you on the 'commits' as well
+> Project with Django Framework. I'll update you on the 'commits' as well
