@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'todos.apps.TodosConfig'
+    "todos.apps.TodosConfig",
 ]
 
 MIDDLEWARE = [
@@ -78,10 +78,8 @@ WSGI_APPLICATION = "setup.wsgi.application"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': config(
-        "DATABASE_URL", 
-        default=f'sqlite:///{BASE_DIR / "db.sqlite3"}',
-        cast=db_url
+    "default": config(
+        "DATABASE_URL", default=f'sqlite:///{BASE_DIR / "db.sqlite3"}', cast=db_url
     )
 }
 
