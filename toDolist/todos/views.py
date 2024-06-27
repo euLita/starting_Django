@@ -1,10 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-
-
-def home(request):
-    return render(request, "todos/home.html")
-    # return HttpResponse("Hello, Treining!")
-
 
 # Create your views here.
+def todo_list(request):
+    return render(request."todos/todo_list.html")
